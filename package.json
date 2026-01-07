@@ -1,10 +1,8 @@
 {
   "name": "wicked-argo",
   "version": "1.0.0",
-  "description": "Optimized Node.js Argo Tunnel Project",
+  "description": "Optimized Xray-Argo-Node Container",
   "main": "index.js",
-  "author": "JamesXie2025",
-  "license": "MIT",
   "scripts": {
     "start": "node index.js"
   },
