@@ -9,7 +9,7 @@ const app = express();
 // ================== ENV ==================
 const ENV = {
     FILE_PATH: path.join(os.tmpdir(), 'wicked-argo'), // cloud safe path
-    PORT: process.env.PORT || 8001,                  // leapcell port
+    PORT: process.env.PORT || 7860,                  // leapcell port
     UUID: process.env.UUID || '9afd1229-b893-40c1-84dd-51e7ce204913',
     ARGO_DOMAIN: process.env.ARGO_DOMAIN || '',
     ARGO_AUTH: process.env.ARGO_AUTH || '',
